@@ -1,0 +1,150 @@
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#onoff {
+    background-color: #37b600;
+    padding: 8px 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    -webkit-box-shadow: -1px 0px 16px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 16px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 0px 16px -5px rgba(0, 0, 0, 0.75);
+}
+
+#onoff:hover {
+    opacity: 0.8;
+    transition: all ease-in-out 0.5s;
+}
+
+#nav {
+    background-color: #47a52a !important;
+}
+
+#link {
+    color: white !important
+}
+
+.uppernav {
+    background-color: #0a8f0b;
+    color: white;
+    text-align: right;
+}
+
+body {
+    background-image: url("https://i.postimg.cc/y6Pc2Xwq/N-vrh-bez-n-zvu.png");
+    animation: fadein 0.4s ease-in;
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    margin-right: 3% !important;
+}
+
+#navbutton {
+    color: white;
+    background-color: rgb(60, 139, 60);
+}
+
+header {
+    color: black !important;
+    text-align: left;
+    margin-left: 10%;
+}
+
+header #title {
+    font-family: Poppins;
+    margin-top: 10%;
+}
+
+#paratitle {
+    display: table;
+    width: 450px;
+    color: rgb(65, 65, 65);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 515px) {
+    #paratitle {
+        font-size: 15px !important;
+        width: 250px !important;
+    }
+}
+
+#headerbutton {
+    background-color: green;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 8px 18px;
+}
+
+#headerbutton:hover {
+    opacity: 0.8;
+    transition: all ease-in-out 0.5s;
+}
+
+#codelame {
+    border: green solid 2px;
+    outline: none;
+    padding: 8px 18px;
+    background-color: transparent;
+    color: green;
+}
+
+#codelame:hover {
+    background-color: rgb(236, 236, 236);
+    transition: all ease-in-out 0.2s;
+}
+
+.container {
+    text-align: center;
+}
+
+#ctitle {
+    text-align: center;
+    margin-top: 11%;
+    margin-bottom: 2%;
+    color: black;
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+#ctit {
+    color: green;
+}
+
+#icon {
+    color: green;
+}
+
+.col-sm {
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+.col-sm:hover {
+    transition: all ease-in-out 0.3s;
+    border: solid 2px green;
+}
+
+#mtitulek {
+    font-size: 24px;
+}
+
+#mmoto {
+    font-size: 18px;
+    font-weight: 400;
+}
